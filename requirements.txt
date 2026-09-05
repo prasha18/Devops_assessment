@@ -89,7 +89,7 @@ mccabe==0.7.0
 flake8==6.0.0
 
 # Assessment quality and testing tools
-pytest-playwright==0.7.1
+pytest-playwright==0.9.0
 playwright==1.55.0
 ruff==0.12.10
 bandit==1.8.6
