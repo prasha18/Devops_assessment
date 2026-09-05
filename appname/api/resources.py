@@ -1,7 +1,6 @@
 from flask import redirect, url_for
-from flask_restful import abort
 
-from appname.api import api, api_blueprint, API_VERSION, API_BASE
+from appname.api import api, api_blueprint, API_VERSION
 from appname.api.info import APIInfo
 from appname.api.user import CurrentUserInfo
 

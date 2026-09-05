@@ -1,6 +1,6 @@
 {% extends "lander/base.html" %}
 
-{% block title %}Ignite{% endblock %}
+{% block title %}MyTemplate{% endblock %}
 
 {% block js %}
     <script src="https://js.stripe.com/v3/"></script>
@@ -14,8 +14,8 @@
 	<header class="header">
 		<div class="container nav-header">
 			<a href="https://github.com/sumukh/ignite" target="_blank" class="logo">
-				<img src="{{ url_for('static', filename='public/ignite/ignite-icon.svg') }}" class="logo-icon h-6" alt="Ignite">
-				ignite
+				<img src="{{ url_for('static', filename='public/ignite/ignite-icon.svg') }}" class="logo-icon h-6" alt="MyTemplate">
+                                MyTemplate
 			</a>
 			<div class="links">
 				<a href="#pricing">Pricing</a>
@@ -30,7 +30,7 @@
 			<div class="col-sm">
 				<div class="hero-header">
 					<h1 class="hero-title">Batteries Included</h1>
-					<p class="hero-description">Ignite is a starting point for Flask web applications that handles the
+					<p class="hero-description">MyTemplate is a starting point for Flask web applications that handles the
 					basics of SaaS products (like user login and subscription billing) for you.
 					</p>
 
@@ -59,7 +59,7 @@
 					<div class="feature-text-block">
 						<div class="feature-heading">Based on Flask & Python 3</div>
 						<div class="features-text-block">
-							Ignite builds upon Flask, a popular framework for Python used by many web applications (including Pinterest).
+							MyTemplate builds upon Flask, a popular framework for Python used by many web applications (including Pinterest).
 						</div>
 					</div>
 				</div>
@@ -68,7 +68,7 @@
 						<div class="feature-text-block">
 							<div class="feature-heading">Subscription & One Off Billing</div>
 							<div class="features-text-block">
-								Accept credit card payments and issue receipts through Stripe. Ignite Pro supports recurring billing.
+								Accept credit card payments and issue receipts through Stripe. MyTemplate supports recurring billing.
 							</div>
 						</div>
 				</div>
@@ -77,7 +77,7 @@
 						<div class="feature-text-block">
 							<div class="feature-heading">Users & Teams</div>
 							<div class="features-text-block">
-								Ignite handles account registration, login, OAuth login (like login with Google), password resets, teams, and email confirmation.
+								MyTemplate handles account registration, login, OAuth login (like login with Google), password resets, teams, and email confirmation.
 							</div>
 						</div>
 				</div>
@@ -100,7 +100,7 @@
 					<div class="feature-text-block">
 						<div class="feature-heading">Bootstrap 4 & HTML 5</div>
 						<div class="features-text-block">
-							Ignite uses Bootstrap, the most popular frontend HTML & CSS framework. The prebuilt UIs
+							MyTemplate uses Bootstrap, the most popular frontend HTML & CSS framework. The prebuilt UIs
 							serves as a good starting point for your app.
 						</div>
 					</div>
@@ -110,7 +110,7 @@
 					<div class="feature-text-block">
 						<div class="feature-heading">Scalable</div>
 						<div class="features-text-block">
-							Ignite supports deployment on cloud providers and builds upon modern best practices for Flask applications.
+							MyTemplate supports deployment on cloud providers and builds upon modern best practices for Flask applications.
 						</div>
 					</div>
 				</div>
@@ -128,8 +128,8 @@
 					  <li><a href="#">Teams Permission Levels</a></li>
 					  <li><a href="#">Email Notifications</a></li>
 					  <li><a href="#">User API Tokens</a></li>
-					  <li><a href="#">Data Export</a> <a href="#pricing" class="badge badge-danger" data-toggle="tooltip" data-placement="right" title="Available in Ignite PRO Version"> PRO</a></li>
-					  <li><a href="#">Data Deletion</a> <a href="#pricing" class="badge badge-danger" data-toggle="tooltip" data-placement="right" title="Available in Ignite PRO Version"> PRO</a></li>
+					  <li><a href="#">Data Export</a> <a href="#pricing" class="badge badge-danger" data-toggle="tooltip" data-placement="right" title="Available in MyTemplate PRO Version"> PRO</a></li>
+					  <li><a href="#">Data Deletion</a> <a href="#pricing" class="badge badge-danger" data-toggle="tooltip" data-placement="right" title="Available in MyTemplate PRO Version"> PRO</a></li>
 				   </ul>
 				</div>
 				<div class="col-sm">
@@ -144,7 +144,7 @@
 						<li><a href="#">Job Queue</a></li>
 						<li><a href="#">Realtime Socket.io</a></li>
 						<li><a href="#">Web Analytics</a></li>
-						<li><a href="#">Stripe Webhooks</a> <a href="#pricing" class="badge badge-danger" data-toggle="tooltip" data-placement="right" title="Available in Ignite PRO Version">PRO</a></li>
+						<li><a href="#">Stripe Webhooks</a> <a href="#pricing" class="badge badge-danger" data-toggle="tooltip" data-placement="right" title="Available in MyTemplate PRO Version">PRO</a></li>
 					</ul>
 				   <ul class="list-unstyled icon-offset">
 					  <li><strong>Developer Tools</strong></li>
@@ -164,8 +164,8 @@
 					  <li><a href="#">Login & Error Page</a></li>
 					  <li><a href="#">Font Icons</a></li>
 					  <li><a href="#">Asset Bundling System</a></li>
-					  <li><a href="#">Landing Page Design</a> <a href="#pricing" class="badge badge-danger" data-toggle="tooltip" data-placement="right" title="Available in Ignite PRO Version"> PRO</a></li>
-					  <li><a href="#">Video Guides</a> <a href="#pricing" class="badge badge-danger" data-toggle="tooltip" data-placement="right" title="Available in Ignite PRO Version">PRO</a></li>
+					  <li><a href="#">Landing Page Design</a> <a href="#pricing" class="badge badge-danger" data-toggle="tooltip" data-placement="right" title="Available in MyTemplate PRO Version"> PRO</a></li>
+					  <li><a href="#">Video Guides</a> <a href="#pricing" class="badge badge-danger" data-toggle="tooltip" data-placement="right" title="Available in MyTemplate PRO Version">PRO</a></li>
 				   </ul>
 				   <ul class="list-unstyled icon-offset">
 						<li><strong>Infrastructure</strong></li>
@@ -200,7 +200,7 @@
 									<span class="fa-li"><i class="fa red-check fa-times"></i></span>
 									<strong>No Commerical Usage</strong>
 								</li>
-								<li class="text-muted"><span class="fa-li"><i class="fa red-check fa-times"></i></span>Must include Ignite link/credit</li>
+								<li class="text-muted"><span class="fa-li"><i class="fa red-check fa-times"></i></span>Must include MyTemplate link/credit</li>
 							  </ul>
 							  <hr>
 
@@ -240,7 +240,7 @@
 							  <hr>
 							  <ul class="fa-ul">
 								<li><span class="fa-li"><i class="fa green-check fa-check"></i></span><strong>Commercial License</strong></li>
-								<li><span class="fa-li"><i class="fa green-check fa-check"></i></span>Everything in Ignite Pro </li>
+								<li><span class="fa-li"><i class="fa green-check fa-check"></i></span>Everything in MyTemplate Pro </li>
 								<li><span class="fa-li"><i class="fa green-check fa-check"></i></span>Use for multiple applications</li>
 
 							  </ul>
@@ -266,7 +266,7 @@
 				<a href="https://github.com/sumukh/ignite">Privacy</a>
 			</div>
 			<div class="col-md-auto mt-2 mt-sm-0 ml-sm-auto">
-				Powered by <a href="https://github.com/sumukh/ignite">Ignite</a> for Flask
+				Powered by <a href="https://github.com/sumukh/ignite">MyTemplate</a> for Flask
 				<!-- You must purchase a license of Ignite to remove the above disclaimer -->
 			</div>
 		</div>

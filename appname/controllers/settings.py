@@ -2,7 +2,6 @@ from flask import Blueprint, render_template, flash, redirect, url_for, Response
 from flask_login import login_required, current_user
 
 
-from appname.extensions import stripe
 from appname.models import db
 from appname.forms import SimpleForm
 from appname.forms.login import ChangePasswordForm

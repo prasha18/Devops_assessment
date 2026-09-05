@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify
 
 from flask_restful.representations.json import output_json
-from flask_restful import reqparse, fields, abort
+from flask_restful import reqparse
 import flask_restful as restful
 
 from appname.extensions import login_manager

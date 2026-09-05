@@ -1,22 +1,21 @@
-import os
 class Branding:
     def __init__(self):
         self.environment = "prod"
         self.config = {}
 
     def init_app(self, app):
-        self.config  = app.config
-        self.environment = app.config.get('ENV', 'prod')
+        self.config = app.config
+        self.environment = app.config.get("ENV", "prod")
 
     @property
     def name(self):
         if self.environment == "dev":
-            return "appname-dev"
-        return "appname"
+            return "MyTemplate-dev"
+        return "MyTemplate"
 
     @property
     def support_email(self):
-        email = self.config.get('support_email', 'help@example.com')
+        email = self.config.get("support_email", "help@example.com")
         return email
 
     @property
@@ -29,11 +28,11 @@ class Branding:
 
     @property
     def website_domain(self):
-        return "appname.com"
+        return "mytemplate.com"
 
     @property
     def legal_name(self):
-        return "appname.com"
+        return "MyTemplate"
 
     @property
     def corporate_jurisdiction(self):
@@ -42,4 +41,3 @@ class Branding:
     @property
     def full_logo_path(self):
         return "public/ignite/ignite-logo@2x.png"
-

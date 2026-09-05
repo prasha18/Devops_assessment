@@ -149,6 +149,18 @@ Design elements from [tabler](https://github.com/tabler/tabler) & Bootstrap 4.
 
 Built off of [Flask Foundation](https://jackstouffer.github.io/Flask-Foundation/) and the [bootstrapy project](https://github.com/kirang89/bootstrapy)
 
+## MyTemplate Quality Pipeline
+
+The application branding has been updated to **MyTemplate**. The repository includes a repeatable local and CI quality pipeline covering linting, security scanning, backend tests, coverage, and Playwright UI tests.
+
+### Local setup
+
+```bash
+python3 -m venv env
+source env/bin/activate
+python -m pip install -r requirements.txt
+python -m playwright install chromium
+
 ### Extra Reading
 
 Only building out an API using Flask?
