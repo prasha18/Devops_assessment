@@ -92,4 +92,4 @@ flake8==6.0.0
 pytest-playwright==0.7.1
 playwright==1.55.0
 ruff==0.12.10
-bandit==1.8.6
+bandit==1.9.4
